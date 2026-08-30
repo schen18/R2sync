@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep R2 credentials (including the secret access key stored in
+     r2_sync_preferences.xml) out of platform cloud backups. -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="r2_sync_preferences.xml" />
+</full-backup-content>

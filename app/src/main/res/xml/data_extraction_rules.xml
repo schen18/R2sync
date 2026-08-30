@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep R2 credentials (including the secret access key stored in
+     r2_sync_preferences.xml) out of cloud backups and device transfers. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="r2_sync_preferences.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="r2_sync_preferences.xml" />
+    </device-transfer>
+</data-extraction-rules>

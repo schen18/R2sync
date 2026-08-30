@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">R2 Folder Sync</string>
+    <string name="perm_access_r2_hub_label">Access R2 Sync Hub</string>
+    <string name="perm_access_r2_hub_desc">Allows authorized companion apps signed with the same developer certificate to access, stream, and sync files through the Cloudflare R2 Hub.</string>
+    <string name="perm_write_r2_hub_label">Write to R2 Sync Hub</string>
+    <string name="perm_write_r2_hub_desc">Allows authorized companion apps to create, edit, and push dirty file changes to the Cloudflare R2 Hub.</string>
+</resources>
